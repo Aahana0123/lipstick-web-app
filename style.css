@@ -1,0 +1,21 @@
+h1{ 
+    font-size: 25px !important; 
+}
+.btn-primary:hover{
+background-color: deeppink;
+}
+canvas{
+    animation-name: box_shadow;
+    animation-duration: 4s ;
+    animation-iteration-count: infinite;
+    margin-top: 90px;
+
+}
+@keyframes box_shadow{
+    from{
+        box-shadow: 3px 3px 38px crimson;
+    }
+    to{
+        box-shadow: 3px 3px 38px rgb(109, 0, 160);
+    }
+}
